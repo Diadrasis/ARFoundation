@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 492}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 492}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_MinSize: {x: 909, y: 442}
   m_MaxSize: {x: 22004, y: 10000}
   vertical: 0
-  controlID: 8907
+  controlID: 284
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 8933
+  controlID: 239
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -456,7 +456,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.14758426, y: 0.29622096, z: -0.046390668, w: -0.9425315}
     speed: 2
-    m_Value: {x: -0.14758426, y: 0.29622096, z: -0.046390668, w: -0.9425315}
+    m_Value: {x: -0.14758088, y: 0.2962142, z: -0.046389606, w: -0.94250995}
   m_Size:
     m_Target: 12.124355
     speed: 2
@@ -513,9 +513,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6e5b0000
-      m_LastClickedID: 23406
-      m_ExpandedIDs: be63fffff466ffffaa6dffff2472ffff687bffff428cffff448cffff7a98ffff3299ffff64e9ffff9cecffffd0eeffffeaf3ffffecf3fffffaf5ffffd6f7ffff50fbffff1e5700002e570000c0580000d0580000
+      m_SelectedIDs: 5ee3ffff
+      m_LastClickedID: 0
+      m_ExpandedIDs: 18ebffff6aefffff66620000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -576,23 +576,21 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Scenes
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
   m_StartGridSize: 64
-  m_LastFolders:
-  - Assets/SpartanKing
+  m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\GitHub\ARFoundation
+  m_LastProjectPath: D:\GitHub\ARFoundationGPS_Test
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 664f0000
     m_LastClickedID: 20326
-    m_ExpandedIDs: ffffffff000000007e1c0000a44b00006e4d0000704d0000724d0000744d0000764d0000784d00007a4d00007c4d0000a84d00000c500000dc580000ffffff7f
+    m_ExpandedIDs: ffffffff000000009c490000a25b00000e61000010610000126100001461000016610000186100001a6100001c6100001e6100002061000022610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,7 +618,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000007e1c0000a44b00006e4d0000704d0000724d0000744d0000764d0000784d00007a4d00007c4d0000a84d00000c500000dc580000ffffff7f
+    m_ExpandedIDs: ffffffff000000009c490000a25b00000e61000010610000126100001461000016610000186100001a6100001c6100002061000022610000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
