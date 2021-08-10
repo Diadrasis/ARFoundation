@@ -1,0 +1,532 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 8032 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GitHub/ARFoundation
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52394
+Successfully changed project path to: D:/GitHub/ARFoundation
+D:/GitHub/ARFoundation
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/ARFoundation/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.6280
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002010 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.774 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002657 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.080 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2931 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.6 MB.
+System memory in use after: 129.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3377.
+Total: 2.314100 ms (FindLiveObjects: 0.244300 ms CreateObjectMapping: 0.120700 ms MarkObjects: 1.865300 ms  DeleteObjects: 0.083000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ed3a25724f53d5d050f6546b05018f') in 0.016794 seconds
+  Import took 0.073114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.292369 seconds.
+  path: Assets/Scenes/donkey.unity
+  artifactKey: Guid(b7ffe2759066b2f42b26f2b874187b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/donkey.unity using Guid(b7ffe2759066b2f42b26f2b874187b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f96abe9fd639027e85acfcb9919bf2e') in 0.007139 seconds
+  Import took 0.064227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.185093 seconds.
+  path: Assets/Scenes/AR-GPS_Test.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AR-GPS_Test.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d62e790c2a03053fc6f343720a6df9') in 0.009165 seconds
+  Import took 0.030545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.860935 seconds.
+  path: Assets/Animations/DonkeyTest.controller
+  artifactKey: Guid(88b2d31b440121c40ba058e11c577fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DonkeyTest.controller using Guid(88b2d31b440121c40ba058e11c577fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58fc37669968abfea0cf2ddbfb0ce0a') in 0.039749 seconds
+  Import took 0.065646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.043663 seconds.
+  path: Assets/Animations/DonkeyAnimation.controller
+  artifactKey: Guid(ad16a1e86e601ae49afbcd1f4fe471f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DonkeyAnimation.controller using Guid(ad16a1e86e601ae49afbcd1f4fe471f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ed36d8d2f55af7b2520c131762ee78') in 0.014294 seconds
+  Import took 0.020767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.754730 seconds.
+  path: Assets/Scenes/donkey.unity
+  artifactKey: Guid(b7ffe2759066b2f42b26f2b874187b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/donkey.unity using Guid(b7ffe2759066b2f42b26f2b874187b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d3d5c179b5b0d661c8c5a3e427440f') in 0.006731 seconds
+  Import took 0.060376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.008901 seconds.
+  path: Assets/Scenes/DonkeyAnimation.unity
+  artifactKey: Guid(b7ffe2759066b2f42b26f2b874187b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DonkeyAnimation.unity using Guid(b7ffe2759066b2f42b26f2b874187b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7fca1a0fbcf96e6e4a0f5fbc2a5440') in 0.008393 seconds
+  Import took 0.018297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.908173 seconds.
+  path: Assets/Scenes/KingAnimation.unity
+  artifactKey: Guid(3f5dd7f412df53541a3bc6c3921b6509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KingAnimation.unity using Guid(3f5dd7f412df53541a3bc6c3921b6509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49334c2377fd4483311b630836ea97c2') in 0.008139 seconds
+  Import took 0.016811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 514.460440 seconds.
+  path: Assets/Animations/KingAnimationController.controller
+  artifactKey: Guid(8526cb55b395fc8418a1084e7ca380de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/KingAnimationController.controller using Guid(8526cb55b395fc8418a1084e7ca380de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43609791b5730856c173a2da7a96b191') in 0.013380 seconds
+  Import took 0.037440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 486.455024 seconds.
+  path: Assets/Animations/KingAnimationController.controller
+  artifactKey: Guid(8526cb55b395fc8418a1084e7ca380de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/KingAnimationController.controller using Guid(8526cb55b395fc8418a1084e7ca380de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366b7999432e681c176c56d35f27b08e') in 0.003056 seconds
+  Import took 0.311621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.266664 seconds.
+  path: Assets/SpartanKing/SpartanKing.FBX
+  artifactKey: Guid(608191cf3aeaa85419bb4558fccb064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpartanKing/SpartanKing.FBX using Guid(608191cf3aeaa85419bb4558fccb064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba9f61d8054bb8fb712d67c56679ce8') in 0.455086 seconds
+  Import took 0.463253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.546848 seconds.
+  path: Assets/SpartanKing/SpartanKing.FBX
+  artifactKey: Guid(608191cf3aeaa85419bb4558fccb064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpartanKing/SpartanKing.FBX using Guid(608191cf3aeaa85419bb4558fccb064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb2dbafee50762e48abc444375449f3') in 0.076377 seconds
+  Import took 0.098172 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 141.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3430.
+Total: 2.700100 ms (FindLiveObjects: 0.306300 ms CreateObjectMapping: 0.136800 ms MarkObjects: 2.191600 ms  DeleteObjects: 0.064400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002575 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 141.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3434.
+Total: 2.289700 ms (FindLiveObjects: 0.226400 ms CreateObjectMapping: 0.102200 ms MarkObjects: 1.908600 ms  DeleteObjects: 0.052000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 337.694333 seconds.
+  path: Assets/Prefabs/SpartanKing.prefab
+  artifactKey: Guid(550afc5d08f19204cbe0d1289890191d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpartanKing.prefab using Guid(550afc5d08f19204cbe0d1289890191d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f37818ef82f0aba6b3cfa1c52ba259') in 0.570546 seconds
+  Import took 0.584884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.707411 seconds.
+  path: Assets/Prefabs/Donkey.prefab
+  artifactKey: Guid(7129feb3bcddc8444be50fa3eb7fe842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Donkey.prefab using Guid(7129feb3bcddc8444be50fa3eb7fe842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47820b160501ba7eb87f96486cedbf0') in 0.281144 seconds
+  Import took 0.329917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.385250 seconds.
+  path: Assets/Scenes/AR-GPS_Test.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AR-GPS_Test.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792ba5d6b635929a38e74a327e1bc1f3') in 0.002581 seconds
+  Import took 0.048435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.678047 seconds.
+  path: Assets/Scenes/AR-GPS_Test 1.unity
+  artifactKey: Guid(34d491776be13724983bb10bd50083d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AR-GPS_Test 1.unity using Guid(34d491776be13724983bb10bd50083d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cc62246e0a154eae6756f516626195') in 0.008025 seconds
+  Import took 0.033183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.938725 seconds.
+  path: Assets/Scenes/AR-GPS_Test_Altitude_Mode.unity
+  artifactKey: Guid(34d491776be13724983bb10bd50083d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AR-GPS_Test_Altitude_Mode.unity using Guid(34d491776be13724983bb10bd50083d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e5dd6937536375231b660c3be59f74') in 0.008289 seconds
+  Import took 0.017451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 260.975369 seconds.
+  path: Packages/com.unity.render-pipelines.universal
+  artifactKey: Guid(87f3e00faee74b02e6227b1c727beb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal using Guid(87f3e00faee74b02e6227b1c727beb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a08795c2ff7aa8a59dc34e295bc15f9') in 0.010568 seconds
+  Import took 0.304938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 277.307623 seconds.
+  path: Assets/SpartanKing/Materials/Cskin.mat
+  artifactKey: Guid(6d43ce3653b81854b8079d63b237edd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpartanKing/Materials/Cskin.mat using Guid(6d43ce3653b81854b8079d63b237edd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fe4e2b875132fdf045ffebf958c684') in 0.040799 seconds
+  Import took 0.064049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/SpartanKing/Materials/Csword.mat
+  artifactKey: Guid(bc2110781daed694ebe7f0b201f8c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpartanKing/Materials/Csword.mat using Guid(bc2110781daed694ebe7f0b201f8c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1158b5f5a843927e33374cab7676c3') in 0.016114 seconds
+  Import took 0.034677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/SpartanKing/Materials/Cskin.mat
+  artifactKey: Guid(6d43ce3653b81854b8079d63b237edd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpartanKing/Materials/Cskin.mat using Guid(6d43ce3653b81854b8079d63b237edd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fe4e2b875132fdf045ffebf958c684') in 0.013686 seconds
+  Import took 0.021978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/SpartanKing/Materials/Cgold.mat
+  artifactKey: Guid(dfe1b1516f2ccea4a96e91a3a5f6eadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpartanKing/Materials/Cgold.mat using Guid(dfe1b1516f2ccea4a96e91a3a5f6eadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06371724cd283202fe267478ff1ed06') in 0.024515 seconds
+  Import took 0.037218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/SpartanKing/Materials/Ccloth.mat
+  artifactKey: Guid(561d2780b0441324b8e7434304dfb362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpartanKing/Materials/Ccloth.mat using Guid(561d2780b0441324b8e7434304dfb362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe81cba9962f84a2e0d50f13e4a9afe3') in 0.012883 seconds
+  Import took 0.017722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002540 seconds.
+  path: Assets/SpartanKing/Materials/Cgold.mat
+  artifactKey: Guid(dfe1b1516f2ccea4a96e91a3a5f6eadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpartanKing/Materials/Cgold.mat using Guid(dfe1b1516f2ccea4a96e91a3a5f6eadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06371724cd283202fe267478ff1ed06') in 0.014589 seconds
+  Import took 0.020868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 274.555505 seconds.
+  path: Assets/Scenes/KingAnimation.unity
+  artifactKey: Guid(3f5dd7f412df53541a3bc6c3921b6509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KingAnimation.unity using Guid(3f5dd7f412df53541a3bc6c3921b6509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14e570bae3589bdf51f33faf45c3eb9') in 0.002390 seconds
+  Import took 0.009143 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002770 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 141.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3507.
+Total: 2.394500 ms (FindLiveObjects: 0.279100 ms CreateObjectMapping: 0.121500 ms MarkObjects: 1.939200 ms  DeleteObjects: 0.053900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002544 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 141.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3511.
+Total: 2.797300 ms (FindLiveObjects: 0.254300 ms CreateObjectMapping: 0.133600 ms MarkObjects: 2.350700 ms  DeleteObjects: 0.058000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
